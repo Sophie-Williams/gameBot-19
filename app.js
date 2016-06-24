@@ -44,7 +44,7 @@ bot.add('/guessMyName',  [
 			session.endDialog();
 			return;
 		}
-		if(results.response === 'noone')
+		if(results.response === 'no one')
 		{
            session.send('You are correct. Now i recognize you..');
 		}
